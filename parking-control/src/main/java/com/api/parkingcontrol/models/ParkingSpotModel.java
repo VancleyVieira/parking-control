@@ -32,10 +32,6 @@ public class ParkingSpotModel implements Serializable {
     @Column(nullable = false, length = 30)
     private String block;
 
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
-    }
-
     public UUID getId() {
         return id;
     }
